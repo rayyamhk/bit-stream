@@ -1,0 +1,6 @@
+benchmark
+tests
+babel.config.json
+rollup.config.js
+index.js
+.npmignore
