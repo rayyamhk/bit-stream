@@ -1,5 +1,5 @@
 {
-  "name": "bit-stream",
+  "name": "bitstream-io",
   "version": "1.0.0",
   "description": "A decoder and encoder that allow you to manipulate bits in nanoseconds.",
   "type": "module",
@@ -26,7 +26,6 @@
     "base64",
     "hex",
     "utf16",
-    "utf8",
     "encoder",
     "decoder",
     "bit",
@@ -34,11 +33,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/rayyamhk/bit-stream"
+    "url": "https://github.com/rayyamhk/bitstream"
   },
-  "homepage": "https://github.com/rayyamhk/bit-stream#readme",
+  "homepage": "https://github.com/rayyamhk/bitstream#readme",
   "bugs": {
-    "url": "https://github.com/rayyamhk/bit-stream/issues"
+    "url": "https://github.com/rayyamhk/bitstream/issues"
   },
   "author": "Ray Yam",
   "license": "MIT",

@@ -1,4 +1,4 @@
-# bit-stream
+# bitstream-io
 
 This library provides a decoder and encoder for you to manipulate bits in **nanoseconds**.
 
@@ -15,18 +15,18 @@ This library provides a decoder and encoder for you to manipulate bits in **nano
 
 ### CommonJS
 ```javascript
-const { Decoder, Encoder } = require('bit-stream');
+const { Decoder, Encoder } = require('bitstream-io');
 ```
 
 ### ES Module
 ```javascript
-import { Decoder, Encoder } from 'bit-stream';
+import { Decoder, Encoder } from 'bitstream-io';
 ```
 
 ### Browser
 ```javascript
-<script src="https://cdn.jsdelivr.net/npm/bit-stream/dist/index.min.js"></script> // From CDN
-<script src="/path/to/node_modules/bit-stream/dist/index.min.js"></script> // From node_modules
+<script src="https://cdn.jsdelivr.net/npm/bitstream-io/dist/index.min.js"></script> // From CDN
+<script src="/path/to/node_modules/bitstream-io/dist/index.min.js"></script> // From node_modules
 const decoder = BitStream.Decoder(6, cb);
 const encoder = BitStream.Encoder(6, cb);
 ```
